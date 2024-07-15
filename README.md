@@ -22,8 +22,6 @@ All code and instructions to download data and setup environment are in the [us-
 
 Based on the data exploration phase, we plan on following the below steps for the data preprocessing phase:
 
-Based on the data exploration phase, we plan on following the below steps for the data preprocessing phase:
-
 - Handling missing values: During our data exploration phase, we noticed certain variables (like `End_Lat`, `End_Lng`, `Wind_Chill`, and more). We have decided to use other variables that are strongly correlated with these variables instead. This allows us to retain as much information for the classification task without having to lose large amounts of data.
 
 - Feature engineering: We plan on parsing `Weather_Timestamp` variable (which is a string) into multiple integer type variables (like year, month, day, hour, and minute) so they are easy to process in the later stages of the pipeline. Additionally, we would one-hot encode variables like `Weather_Condition` and `Wind_Direction` to potentially improve model training.
