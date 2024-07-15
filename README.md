@@ -13,3 +13,10 @@ US Accidents (2016 - 2023) from [Kaggle](https://www.kaggle.com/datasets/sobhanm
 - Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
 
 - Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
+
+### Notebook
+
+All code and instructions to download data and setup environment are in the [us-accidents-severity-prediction](us-accidents-severity-prediction.ipynb) notebook.
+
+## Milestone 2: Data Exploration & Initial Preprocessing
+
