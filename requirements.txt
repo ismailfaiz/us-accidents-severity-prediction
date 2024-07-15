@@ -1,0 +1,6 @@
+opendatasets
+pyspark
+numpy
+pandas
+seaborn
+matplotlib
