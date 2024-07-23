@@ -27,7 +27,6 @@ Based on the data exploration phase, we plan on following the below steps for th
 - Feature engineering: We plan on parsing `Weather_Timestamp` variable (which is a string) into multiple integer type variables (like year, month, day, hour, and minute) so they are easy to process in the later stages of the pipeline. Additionally, we would one-hot encode variables like `Weather_Condition` and `Wind_Direction` to potentially improve model training.
 
 - Feature selection: Since the dataset has a large number of columns, it is important for us to choose our feature columns wisely. The EDA process gave us a lot of insight into which feature columns we want to particularly use and which ones we want to drop. The correlation matrix gave us insights into redundant variables that do can easily be ignored in the training process.
-<<<<<<< HEAD
 
 ## Milestone 3: Data Preprocessing
 
@@ -61,5 +60,3 @@ These models are chosen to address the limitations of logistic regression in han
 - Feature engineering and selection to improve model performance.
   
 These steps aim to move the model towards the "sweet spot" on the fitting graph, balancing bias and variance while addressing the challenges of imbalanced data and convergence issues.
-=======
->>>>>>> 8ed420e4832fa6a39b34e9ca57dff245724ecbcf
