@@ -19,4 +19,3 @@ US Accidents (2016 - 2023) from [Kaggle](https://www.kaggle.com/datasets/sobhanm
 All code and instructions to download data and setup environment are in the [us-accidents-severity-prediction](us-accidents-severity-prediction.ipynb) notebook.
 
 ## Milestone 2: Data Exploration & Initial Preprocessing
-
