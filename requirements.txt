@@ -1,6 +1,9 @@
 opendatasets
+setuptools
 pyspark
 numpy
 pandas
 seaborn
 matplotlib
+scikit-learn
+scipy
