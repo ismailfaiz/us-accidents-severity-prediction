@@ -40,7 +40,7 @@ All code and instructions to download data and setup environment are in the [us-
 
 ### Report
 
-The project report includes a complete introduction to the project, the methods used, the results achieved, figures produced, and a final discussion and conclusion section. It can be found [here](report.pdf).
+The project report includes a complete introduction to the project, the methods used, the results achieved, the figures produced, and a final discussion and conclusion section. It can be found [here](report.pdf).
 
 ## Milestone 2: Data Exploration & Initial Preprocessing
 
@@ -77,7 +77,7 @@ The logistic regression model achieves 74% accuracy on both training and test se
 
 These models are chosen to address the limitations of logistic regression in handling non-linear relationships and class imbalance.
 
-**Next Steps**
+**Next steps:**
 - Address class imbalance using techniques like SMOTE or class weights.
 - Implement non-linear models such as Random Forest or Gradient Boosting to capture complex relationships and handle imbalanced data better.
 - Increase max_iter parameter to allow for convergence, as the model consistently hit the maximum iterations.
