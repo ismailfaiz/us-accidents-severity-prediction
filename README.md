@@ -38,10 +38,6 @@ All code and instructions to download data and setup environment are in the [us-
   - Training
   - Evaluation
 
-### Report
-
-The project report includes a complete introduction to the project, the methods used, the results achieved, the figures produced, and a final discussion and conclusion section. It can be found [here](report.pdf).
-
 ## Milestone 2: Data Exploration & Initial Preprocessing
 
 Based on the data exploration phase, we plan on following the below steps for the data preprocessing phase:
@@ -88,3 +84,7 @@ These steps aim to move the model towards the "sweet spot" on the fitting graph,
 ## Milestone 4: Final Submission
 
 As an upgraded and final model, we train a random forest classifier to address the imbalanced dataset and handle potentially non-linear relationships. The random forest classifier demonstrates strong performance, achieving high accuracy on both the training set (98.13%) and the test set (90.89%), indicating good generalization. The model excels in classifying Class 1, with an F1 score of 0.99 on the training set and 0.98 on the test set. Class 2 also performs well with F1 scores of 0.97 and 0.86, respectively, while Class 3 shows a slight decline with scores of 0.97 and 0.85. Class 4 maintains high performance with F1 scores of 0.99 and 0.94. Despite the overall high precision and recall across classes, Class 2 shows lower recall (0.81) on the test set, and Class 3 has slightly lower precision (0.85). The confusion matrices reveal that most misclassifications occur between Classes 2 and 3, while Classes 1 and 4 exhibit very few errors. The noticeable difference between training and test accuracies suggests some overfitting, though it is not severe. Hyperparameter tuning identified the best parameters as `max_features='log2'` and `n_estimators=200`, indicating a relatively complex model. On the fitting graph, this model likely sits near the optimal point, reflecting a good balance between bias and variance, yet there remains potential for further optimization, particularly for improving performance on Classes 2 and 3 in the test set. Overall, the random forest classifier effectively addresses class imbalance better than the logistic regression model, showcasing its robustness in classification tasks.
+
+### Report
+
+The project report includes a complete introduction to the project, the methods used, the results achieved, the figures produced, and a final discussion and conclusion section. It can be found [here](report.pdf).
