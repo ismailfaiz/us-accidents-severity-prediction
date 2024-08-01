@@ -16,7 +16,27 @@ US Accidents (2016 - 2023) from [Kaggle](https://www.kaggle.com/datasets/sobhanm
 
 ### Notebook
 
-All code and instructions to download data and setup environment are in the [us-accidents-severity-prediction](us-accidents-severity-prediction.ipynb) notebook.
+All code and instructions to download data and setup environment are in the [us-accidents-severity-prediction](us-accidents-severity-prediction.ipynb) notebook. The notebook is structured as follows:
+
+- Setup
+  - Environment setup
+  - Data download
+- Exploration
+  - Basic EDA
+  - Plots
+- Preprocessing
+  - Feature selection
+  - Feature engineering
+  - One-hot encoding
+  - Handling missing values
+  - Feature scaling
+- Logistic Regression
+  - Training
+  - Evaluation
+- Random Forest Classifier
+  - Preprocessing
+  - Training
+  - Evaluation
 
 ## Milestone 2: Data Exploration & Initial Preprocessing
 
