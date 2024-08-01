@@ -38,6 +38,10 @@ All code and instructions to download data and setup environment are in the [us-
   - Training
   - Evaluation
 
+### Report
+
+The project report includes a complete introduction to the project, the methods used, the results achieved, figures produced, and a final discussion and conclusion section. It can be found [here](report.pdf).
+
 ## Milestone 2: Data Exploration & Initial Preprocessing
 
 Based on the data exploration phase, we plan on following the below steps for the data preprocessing phase:
